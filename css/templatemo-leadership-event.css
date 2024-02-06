@@ -533,10 +533,11 @@ strong {
 
 .date-text,
 .location-text {
-  border: 1px solid var(--white-color);
+  /* border: 1px solid var(--white-color); */
   color: var(--white-color);
   display: inline-block;
   padding: 10px 20px;
+  font-size: larger;
 }
 
 .date-text {
@@ -1061,6 +1062,10 @@ strong {
     margin-right: 0;
     margin-left: 0;
     padding: 15px;
+  }
+
+  .hero{
+    height: 90vh;
   }
 
   .hero-text {
