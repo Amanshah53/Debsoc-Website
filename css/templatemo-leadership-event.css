@@ -1001,6 +1001,11 @@ strong {
     padding-bottom: 80px;
   }
 
+  .date-text,
+.location-text {
+  font-size: medium;
+}
+
   .custom-btn {
     font-size: var(--copyright-text-font-size);
     padding: 8px 16px;
