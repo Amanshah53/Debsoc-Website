@@ -312,6 +312,7 @@ strong {
   font-size: 68px;
   width: 64px;
   height: 64px;
+  filter: contrast(200%);
 }
 
 .brand-text {
