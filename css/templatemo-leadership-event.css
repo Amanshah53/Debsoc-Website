@@ -42,6 +42,10 @@ body {
     font-family: var(--body-font-family); 
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -485,8 +489,8 @@ strong {
 -----------------------------------------*/
 .hero {
   position: relative;
-  /* height: calc(90vh - 84px); */
-  height: 100vh;
+  height: calc(100vh - 84px);
+  /* height: 100vh; */
 }
 
 .hero::after {
@@ -1011,7 +1015,7 @@ strong {
   }
 
   .hero {
-    height: calc(75vh - 78.39px);
+    height: 100vh;
   }
 
   .nav-tabs .nav-link {
