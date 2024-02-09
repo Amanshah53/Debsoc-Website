@@ -534,16 +534,12 @@ strong {
 
 .date-text,
 .location-text {
-  /* border: 1px solid var(--white-color); */
   color: var(--white-color);
   display: inline-block;
   padding: 10px 20px;
   font-size: larger;
 }
 
-.date-text {
-  border-right: 0;
-}
 
 .reveal{
   height: 70%;
